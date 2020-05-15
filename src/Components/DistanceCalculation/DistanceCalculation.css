@@ -1,0 +1,51 @@
+.CalculationData {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: left;
+}
+
+.CalculationData input,
+.CalculationData textarea,
+.CalculationData select {
+    display: block;
+    padding: 5px;
+    border: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+    float: left;
+}
+
+.CalculationData button {
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 0%;
+    margin-right: 30%
+}
+
+.CalculationData button:hover,
+.CalculationData button:active {
+    color: white;
+    background-color: #fa923f;
+}
+
+.resultingDistance {
+    width: 30%;
+    margin: 20px auto;
+    margin-left: 0%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: left;
+    font-family: "Arial Nova";
+    font-style: italic;
+}
